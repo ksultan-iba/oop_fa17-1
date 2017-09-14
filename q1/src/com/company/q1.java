@@ -1,5 +1,6 @@
 package com.company;
 import java.util.Scanner;
+//Class should have a meaningful name and should start with a capital letter. Javadocs missing!
 public class q1 {
 
     public static void main(String[] args) {
