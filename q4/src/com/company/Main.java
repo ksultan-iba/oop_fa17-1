@@ -41,13 +41,14 @@ public class Main {
                 System.out.println("The time required is: " + time + " Seconds");
             }
             else if(instnum ==2){
-                System.out.println("Enter the number of Instructions");
-                numinst = in.nextInt();
+                {System.out.println("Enter the number of Instructions");
+                numinst = in.nextInt();}//duplicate code
                 System.out.println("Enter the time needed per instruction");
                 sec = in.nextDouble();
                 time = (sec * numinst);
-                System.out.println("The time required is: " + time + " Seconds");
+                System.out.println("The time required is: " + time + " Seconds");//duplicate code
             }
+            //Purpose of this else block?
             else{}
 
         }
